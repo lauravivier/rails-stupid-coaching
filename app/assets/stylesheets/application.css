@@ -13,21 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-body {
-  background: $gray;
-}
-
-banner {
-  background: red;
-  h1 {
-    font-size: 50px;
-  }
-}
-
-a {
-  color: grey;
-  &:hover {
-    color: black;
-  }
-}
